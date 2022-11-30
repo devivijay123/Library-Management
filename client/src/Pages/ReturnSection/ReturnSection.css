@@ -1,0 +1,35 @@
+.history{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(245, 128, 128);
+    font-size: 1.5rem;
+    padding: auto 10px;
+}
+.bookdetail{
+  /* padding: 30px auto; */
+  height: 500px;
+  overflow-y: scroll;
+  /* padding: auto 10px; */
+}
+.bookrecord{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 1200px; */
+    font-size: 1.2rem;
+ 
+   
+}
+.bookrecord .bookrec{
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid;
+    
+}
+.bookrec p{
+    width: 120px;
+}

@@ -1,0 +1,42 @@
+/* books record*/
+.book-details{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #17388E;
+    height: 460px;
+    width: 330px;
+    color: rgb(245, 128, 128);
+  
+
+}
+.book-details .book-record{
+    width: 250px;
+    /* height: 150px; */
+    background: #17388E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029; 
+    padding: 20px; 
+    
+    color: white;
+    
+}
+.book-rec{
+ border-width: 2px;
+ border-style: solid; 
+ border-color: #FFFFFF; 
+ border-radius: 5px;
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.book{
+    width:  300px;
+    height: 440px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

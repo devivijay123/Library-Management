@@ -1,0 +1,29 @@
+/*admission***/
+.admission{
+    width: 300px;
+    height: 400px;
+    /* padding-top: 20px;   */
+}
+.admission input{
+    width: 288px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.admission .address{
+    width: 288px;
+    height: 80px;
+}
+.admission-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.admission-button button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #17388E;
+}
+

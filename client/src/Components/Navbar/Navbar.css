@@ -1,0 +1,38 @@
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #FFFFFF;
+    color: #17388E;
+   
+    
+}
+.navmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.navmain img{
+    width: 58%;
+}
+.navright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.navright a{
+text-decoration: none;
+font-size: 1.5rem;
+font-weight: bold;
+color: #17388E;
+}
+.navright button{
+    background-color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #17388E;
+    border-color: #FFFFFF;
+    box-shadow: none;
+}

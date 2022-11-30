@@ -1,0 +1,94 @@
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.profilepic {  
+ width: 130px;
+ height: 130px;
+ background-color: #FFFFFF;
+ border-radius: 50%;
+ margin-left: 80px;
+
+}
+.img-input input[type="file"]{
+    position: absolute;
+    top: 12rem;
+    left: 20.2rem;
+   opacity: 0.3;
+    width: 80px;
+    height: 80px;
+  
+}
+.img-input input[type="submit"]{
+    position: absolute;
+    top: 13.2rem;
+    left: 21rem;
+    background-color: rgb(207, 201, 201);
+    border: none;
+    color: black;
+    
+
+}
+.upload_img img{
+text-align: center;
+}
+.info{
+    width: 350px;
+    height: 430px;
+    background-color: #17388E;
+    padding: 20px;
+    color: white;
+    font-size: 1rem;
+}
+.info h6{
+    font-size: 1rem;
+    color: rgb(245, 128, 128);
+}
+
+
+
+
+
+
+
+
+
+
+/* books record*/
+/* .book-details{ */
+    /* display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #17388E;
+    height: 420px;
+    overflow: auto;
+    padding-top: 0px;
+    color: rgb(245, 128, 128);
+    margin-top: 20px;
+
+} */
+/* .book-details .book-record{
+    width: 250px;
+    height: 150px;
+    background: #17388E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029; 
+    padding: 20px; 
+    color: white;
+} */
+/* .book-rec{
+ border-width: 2px;
+ border-style: solid; 
+ border-color: #FFFFFF; 
+ border-radius: 5px;
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} */

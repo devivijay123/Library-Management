@@ -1,0 +1,80 @@
+
+.book-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.book-sectionleft{
+   
+    width: 25%;
+    height: 490px;
+    padding-left: 2%;
+    background: #17388E 0% 0% no-repeat padding-box;
+}
+.book-section .book-form{
+    /* width: 320px;
+    height: 320px; */
+    background: #17388E 0% 0% no-repeat padding-box;
+    /* box-shadow: 0px 3px 6px #00000029;   */
+    text-align: center;
+}
+.book-section .book-form input{
+    width: 210px;
+ height: 25px;
+ margin-bottom: 10px;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1 
+}
+.book-section .book-form button{
+    width: 120px;
+    height: 30px; 
+    border-radius: 8px;
+    background-color: #628bf3;
+    color: #ffffff;
+    
+}
+.book-section .book-form h6{
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.book-detail{
+    padding-top: 2%;
+    width: 70%;
+    height: 440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    overflow-y:  scroll;
+    padding-bottom: 2%;
+}
+.book-detail .book-record{
+    width: 250px;
+    height: 150px;
+    background: #17388E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029; 
+    padding: 20px; 
+    color: white;
+    
+}
+.book-rec{
+ border-width: 2px;
+ border-style: solid; 
+ border-color: #FFFFFF; 
+ border-radius: 5px;
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 90px;
+}
+.studentname{
+    padding-left: 110px;
+    color: blue;
+    font-size: 1.3rem;
+}

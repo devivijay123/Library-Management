@@ -1,0 +1,137 @@
+.logmain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logmain h1{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #17388E;
+}
+.logmain  img{
+    width: 20%;
+}
+.logcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.logcenter .logleft {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 50px;
+}
+.logcenter .logleft button{
+    width: 300px;
+    height: 55px;
+    border-color: blanchedalmond;;
+    border-radius: 8px;
+}
+.logcenter .logleft a{
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+.logcenter .logleft .btn1{
+    background-color: #f7eaea;
+}
+.logcenter .logleft .btn2{
+    background-color: #17388E;
+    
+}
+.logcenter .logleft .btn2 a{
+    color: #f7eaea;
+}
+.logcenter .logleft .btn1 a{
+    color: #17388E;
+}
+.logcenter .logleft .btn1:hover{
+    background-color: #17388E;
+}
+.logcenter .logleft .btn1 a:hover{
+       color : white;
+}
+.login .main-form{
+    background: #17388E 0% 0% no-repeat padding-box;
+    opacity: 1;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+}
+.login .main-form input{
+    width: 210px;
+    height: 25px;
+    margin-bottom: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+   border-radius: 8px;
+   opacity: 1
+}
+.login .main-form h6{
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.login{
+    position: relative;
+}
+.login .main-form button{
+    width: 210px;
+ height: 30px; 
+ border-radius: 8px;
+ background-color: #628bf3;
+ color: #ffffff;
+}
+.login .character{
+    height: 240px;
+    width: 150px;
+    position: absolute;
+    left: 270px;
+    top: 140px;
+}
+.login .plant {
+    height: 120px;
+    width: 60px;
+    position: absolute;
+    left: -40px;
+    top: 260px;
+}
+.login .bubble{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 350px;
+    top: 60px;
+}
+.login a{
+    color: #f7eaea;
+    text-decoration: none;
+}
+.login p{
+    color: rgb(221, 169, 101);
+}
+.login .password{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 240px;
+    top: 201px;
+}
+.login .envolope{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 240px;
+    top: 159px;
+}
+
+.login-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}

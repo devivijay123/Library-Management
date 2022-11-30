@@ -1,0 +1,154 @@
+
+.regmain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.regmain h1{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #17388E;
+}
+.reg img{
+    width: 20%;
+}
+.regcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+   
+      
+}
+.reg .regcenter .regleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    gap: 50px
+}
+.reg .regcenter .regleft button{
+    
+    width: 300px;
+    height: 55px;
+    border-color: blanchedalmond;;
+    border-radius: 8px;
+}
+.regleft .btn1{
+    
+    background: #17388E 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+opacity: 1;
+}
+.regleft .btn2{
+    background-color:  #f7eaea;
+    font-size: 1.2rem;
+}
+.regleft .btn1 a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+ 
+}
+.regleft .btn2 a{
+    text-decoration: none;
+    
+    color: #17388E;
+    
+}
+.regcenter .regleft .btn2:hover{
+    background-color: #17388E;
+   }
+   .regcenter .regleft .btn2 a:hover{
+       color : white;
+   }
+.regright{
+position: relative;
+   }
+.regright .main-form{
+    background: #17388E 0% 0% no-repeat padding-box;
+opacity: 1;
+    width: 300px;
+    height: 490px;
+ 
+    text-align: center;
+}
+.regright .main-form input{
+ width: 210px;
+ height: 25px;
+ margin-bottom: 10px;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1
+}
+.regright .main-form button{
+ width: 210px;
+ height: 30px; 
+ border-radius: 8px;
+ background-color: #628bf3;
+ color: #ffffff;
+}
+.regright .main-form h6{
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.regright .character{
+    height: 390px;
+    width: 150px;
+    position: absolute;
+    left: 270px;
+    top: 160px;
+}
+.regright .plant {
+    height: 120px;
+    width: 60px;
+    position: absolute;
+    left: -40px;
+    top: 420px;
+}
+.regright .bubble{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 350px;
+    top: 70px;
+}
+.main-form a{
+    color: #f7eaea;
+    text-decoration: none;
+}
+.main-form p{
+    color: rgb(221, 169, 101);
+}
+.regright .password{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+     left: 234px;
+    top: 202px;
+}
+.regright .user{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 234px;
+    top: 121px;
+}
+.regright .envolope{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 234px;
+    top: 161px;
+}
+.regright .phone{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 234px;
+    top: 282px;
+}
